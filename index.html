@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Postzy</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="Part1">Postzy</div>
+      <div class="loader" id="load_id"></div>
+      <div class="Part2">
+        <div class="Part2A">
+          <div>Title</div>
+          <input
+            class="inp_box box1"
+            type="text"
+            placeholder="Enter your post's title"
+            id="inp_box1"
+          />
+          <div>Post</div>
+          <textarea
+            class="inp_box box2"
+            type="text"
+            placeholder="Enter your post's body"
+            id="inp_box2"
+          ></textarea>
+        </div>
+        <div class="Part2B">
+          <button type="submit" disabled id="post_but">Post</button>
+        </div>
+      </div>
+      <div class="Part4">
+        <div class="Part4A" id="post-section">Your Post Section:</div>
+        <div class="Part4B" id="recent-post">Your Recent Post:</div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
